@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+    background-color:black;
+    font-family: 'Pangolin', cursive;
+}
+
+#con{
+    height: 385px;
+    width: 280px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+    background: linear-gradient(305deg,  #6A12E8 40px, #8B09FF 50px);
+    border: none;
+    border-radius: 3px;
+}
+
+#display{
+    width:89%;
+    margin-left:10px;
+    padding-right: 5px;
+    border-radius:5px;
+    margin-top: 15px;
+    text-align: right;
+    background: #FF6B9A ;
+    border: solid 1px #5009FF ;
+}
+
+#a{
+    width: 118px;
+    background: linear-gradient(-18deg,  #6A12E8 40px, #8B09FF 50px);
+}
+
+#a:hover{
+    background:   #6A12E8 ;
+    transition-duration: 0.5s;
+}
+
+input:hover{
+    background: #6A12E8 ;
+    transition-duration: 0.5s;
+}
+
+#con ::before {
+    content:'';
+    position: absolute;
+    top:-2px;
+    right: -2px;
+    bottom:-2px;
+    left: -2px;
+    background:linear-gradient(315deg,#e91e63,#5d02ff);
+    z-index: -1;
+    transform: skew(2deg,1deg);
+    border-radius:13px;
+   
+
+}
+#container{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+
